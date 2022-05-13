@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/bikasha/Desktop/go-progs/src/ecommerce-microservice/auth-micro'
+protoc pkg/pb/*.proto --go_out=plugins=grpc:.
+make: Leaving directory `/Users/bikasha/Desktop/go-progs/src/ecommerce-microservice/auth-micro'
+ 
