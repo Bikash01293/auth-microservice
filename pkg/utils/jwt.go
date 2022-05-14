@@ -11,7 +11,7 @@ import (
 type JwtWrapper struct {
 	SecretKey      string
 	Issuer         string
-	ExpirationHour int64
+	ExpirationHours int64
 }
 
 type JwtClaims struct {
@@ -25,12 +25,12 @@ func (w *JwtWrapper) GenerateToken(user models.User) (signedToken string, err er
 		Id:    user.Id,
 		Email: user.Email,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Local().Add(time.Hour * time.Duration(w.ExpirationHour)).Unix(),
+			ExpiresAt: time.Now().Local().Add(time.Hour * time.Duration(w.ExpirationHours)).Unix(),
 			Issuer:    w.Issuer,
 		},
 	}
 
-	token := jwt.NewWithClaims(jwt.SigningMethodES256, claims)
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 
 	signedToken, err = token.SignedString([]byte(w.SecretKey))
 
