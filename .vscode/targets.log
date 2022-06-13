@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Mon May 30 20:09:47 2022
+
+# Make data base, printed on Tue Jun  7 12:46:08 2022
 
 # Variables
 
@@ -44,7 +47,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/k9/kszs3n7j1yv560ph55_v47lc0000gn/T/vscode-ipc-5ac6ac3b-45e7-4ad1-8a97-698993186e5d.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/k9/kszs3n7j1yv560ph55_v47lc0000gn/T/vscode-ipc-c697e211-65b9-4b2a-8fe5-2c91f30374b5.sock
 # environment
 VSCODE_CWD = /Users/bikasha/Desktop/go-progs/src/ecommerce-microservice/auth-micro
 # environment
@@ -104,7 +107,7 @@ USER = bikasha
 # makefile
 .DEFAULT_GOAL := proto
 # environment
-TERM_SESSION_ID = C638AE0C-3977-46E9-9EEA-87D0D334BAF9
+TERM_SESSION_ID = 1D14BB52-2F0C-4F16-9B0B-DD9DBDE647AD
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -128,7 +131,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 444
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.1049108.1049114.6F63A794-6558-4430-8140-65D484DD6BB4
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.1049108.1049114.71D38DDD-196B-40EA-AA7B-261ED691DB56
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -168,6 +171,7 @@ VSCODE_PID = 391
 
 # Directories
 
+ 
 # . (device 16777220, inode 860182): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
@@ -237,8 +241,6 @@ auth-server:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon May 30 20:09:47 2022
+# Finished Make data base on Tue Jun  7 12:46:08 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
