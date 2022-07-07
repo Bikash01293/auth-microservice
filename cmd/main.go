@@ -9,7 +9,8 @@ import (
 	"log"
 	"net"
 
- 	"auth-micro/pkg/config"
+	"auth-micro/pkg/config"
+
 	"google.golang.org/grpc"
 )
 

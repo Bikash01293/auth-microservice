@@ -1,6 +1,7 @@
 syntax="proto3";
 
 package pb;
+import "google/protobuf/timestamp.proto";
 
 option go_package = "./pkg/pb";
 
@@ -17,6 +18,8 @@ service AuthService {
     string email = 2;
     string password = 3;
     string cpassword = 4;
+    google.protobuf.Timestamp created_at = 5;
+    google.protobuf.Timestamp updated_at = 6;
   }
   
   message RegisterResponse {

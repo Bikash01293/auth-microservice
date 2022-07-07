@@ -8,6 +8,7 @@ import (
 	"context"
 	"log"
 	"net/http"
+	"time"
 )
 
 type Server struct {
@@ -34,6 +35,10 @@ func (s *Server) Register(ctx context.Context, req *pb.RegisterRequest) (*pb.Reg
 	
 	user.Name = req.Name
 	user.Email = req.Email
+	user.CreatedAt = time.Now()
+	user.UpdatedAt = time.Now()
+	
+
 	if req.Password != req.Cpassword {
 		return &pb.RegisterResponse{
 			Status: http.StatusConflict,
@@ -42,6 +47,7 @@ func (s *Server) Register(ctx context.Context, req *pb.RegisterRequest) (*pb.Reg
 	}
 	user.Password = utils.HashPassword(req.Password)
 	user.Cpassword = utils.HashPassword(req.Cpassword)
+	
 
 	s.H.DB.Create(&user)
 

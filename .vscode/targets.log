@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Jun  7 12:46:08 2022
+# Make data base, printed on Tue Jun 28 20:17:35 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/k9/kszs3n7j1yv560ph55_v47lc0000gn/T/vscode-ipc-c697e211-65b9-4b2a-8fe5-2c91f30374b5.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/k9/kszs3n7j1yv560ph55_v47lc0000gn/T/vscode-ipc-ce2ffd1c-e66a-41c7-bd8a-800a7fe5300a.sock
 # environment
 VSCODE_CWD = /Users/bikasha/Desktop/go-progs/src/ecommerce-microservice/auth-micro
 # environment
@@ -83,7 +83,7 @@ MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /De
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/bikasha/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /Users/bikasha/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = bikasha
 # environment
@@ -107,7 +107,7 @@ USER = bikasha
 # makefile
 .DEFAULT_GOAL := proto
 # environment
-TERM_SESSION_ID = 1D14BB52-2F0C-4F16-9B0B-DD9DBDE647AD
+TERM_SESSION_ID = 7F32A81E-7457-45B0-AC0D-AB125ABBCE86
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -121,7 +121,7 @@ TMPDIR = /var/folders/k9/kszs3n7j1yv560ph55_v47lc0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/bikasha/Library/Application Support/Code/1.67.1-main.sock
+VSCODE_IPC_HOOK = /Users/bikasha/Library/Application Support/Code/1.67.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -131,7 +131,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 444
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.1049108.1049114.71D38DDD-196B-40EA-AA7B-261ED691DB56
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.1049108.1049114.EB0EB71A-C610-4382-8ABF-F8651A930857
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -161,7 +161,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 391
+VSCODE_PID = 68302
 # variable set hash-table stats:
 # Load=74/1024=7%, Rehash=0, Collisions=2/98=2%
 
@@ -171,7 +171,6 @@ VSCODE_PID = 391
 
 # Directories
 
- 
 # . (device 16777220, inode 860182): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
@@ -241,6 +240,6 @@ auth-server:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Jun  7 12:46:08 2022
+# Finished Make data base on Tue Jun 28 20:17:35 2022
 
  

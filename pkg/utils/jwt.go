@@ -66,3 +66,4 @@ func (w *JwtWrapper) ValidateToken(signedToken string) (claims *JwtClaims, err e
 
 	return claims, nil
 }
+
